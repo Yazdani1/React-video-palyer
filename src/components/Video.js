@@ -155,7 +155,7 @@ const Video = ({ toggleTheme, theme }) => {
       <div className="theme-chang " onClick={() => toggleTheme()}>
         {theme === "light" ? (
           <p className="theme-iconss">
-            <BsFillMoonStarsFill size={40} />
+            <BsFillMoonStarsFill size={40} color="black"/>
           </p>
         ) : (
           <p className="theme-icon">
@@ -177,7 +177,7 @@ const Video = ({ toggleTheme, theme }) => {
             className="loadmore"
             style={{
               textAlign: "center",
-              marginTop: "20px",
+              marginTop: "5px",
               fontSize: "20px",
               color: "white",
               cursor: "pointer",

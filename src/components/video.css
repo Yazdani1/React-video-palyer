@@ -1,0 +1,11 @@
+.video_item_design{
+    background-color: white;
+    border-radius: 5px;
+
+    box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  
+    cursor: pointer;
+    transition-duration: 1s;
+}

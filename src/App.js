@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import Video from "./components/Video";
 const App = () => {
   return (
-    <React.Fragment>
-      <h1>Video app</h1>
-    </React.Fragment>
-  )
-}
+    <div className="main_app">
+      <Video />
+    </div>
+  );
+};
 
-export default App
+export default App;

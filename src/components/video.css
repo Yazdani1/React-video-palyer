@@ -1,11 +1,26 @@
 .video_item_design{
     background-color: white;
     border-radius: 5px;
-
+    margin-top: 10px;
     box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
     -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
     -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
-  
     cursor: pointer;
     transition-duration: 1s;
+    margin-bottom: 30px;
+}
+.video_title_design{
+    padding: 10px;
+}
+.profile_pic_name{
+    display: flex;
+}
+.profile_pic img{
+    height: 40px;
+    width: 40px;
+    border-radius: 90px;
+    object-fit: cover;
+}
+.name{
+    padding-left: 15px;
 }

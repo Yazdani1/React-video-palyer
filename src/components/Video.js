@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import VideoDetails from "./VideoDetails";
-const Video = () => {
+import "./video.css";
+
+import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
+const Video = ({ toggleTheme, theme }) => {
   const data = [
     {
       title: "React hooks",
@@ -148,7 +151,19 @@ const Video = () => {
   };
 
   return (
-    <div className="container" style={{ marginTop: "80px" }}>
+    <div className="container">
+      <div className="theme-chang " onClick={() => toggleTheme()}>
+        {theme === "light" ? (
+          <p className="theme-iconss">
+            <BsFillMoonStarsFill size={40} />
+          </p>
+        ) : (
+          <p className="theme-icon">
+            <BsFillSunFill size={40} />
+          </p>
+        )}
+      </div>
+
       <div className="row">
         {videData &&
           videData.slice(0, showMore).map((video, index) => (
@@ -156,10 +171,8 @@ const Video = () => {
               <VideoDetails key={video.id} {...video} />
             </div>
           ))}
-      </div>
-
-      {showMore >= data.length ? null : (
-            <div
+        {showMore >= data.length ? null : (
+          <div
             onClick={loadMore}
             className="loadmore"
             style={{
@@ -168,15 +181,15 @@ const Video = () => {
               fontSize: "20px",
               color: "white",
               cursor: "pointer",
+              marginBottom:"20px",
               background: "tomato",
-              marginBottom:"40px",
-              borderRadius:"20px"
+              borderRadius: "20px",
             }}
           >
             Load More
           </div>
         )}
-    
+      </div>
     </div>
   );
 };

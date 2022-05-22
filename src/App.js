@@ -1,10 +1,20 @@
-import React from "react";
+import React,{createContext,useState} from "react";
 import Video from "./components/Video";
+import "./App.css";
+export const ThemeContext = createContext(null);
+
 const App = () => {
+  const [theme, setTheme] = useState("light");
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
   return (
-    <div className="main_app">
-      <Video />
-    </div>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className="main-app" id={theme}>
+        <Video toggleTheme={toggleTheme} theme={theme} />
+      </div>
+    </ThemeContext.Provider>
   );
 };
 

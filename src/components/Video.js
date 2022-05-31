@@ -48,7 +48,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "5",
     },
     {
       title: "React hooks",
@@ -57,7 +57,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "6",
     },
     {
       title: "React hooks",
@@ -66,7 +66,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "7",
     },
     {
       title: "React hooks",
@@ -75,7 +75,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "8",
     },
 
     {
@@ -85,7 +85,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "9",
     },
     {
       title: "React hooks",
@@ -94,7 +94,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "10",
     },
     {
       title: "React hooks",
@@ -103,7 +103,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "11",
     },
     {
       title: "React hooks",
@@ -112,7 +112,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "12",
     },
     {
       title: "React hooks",
@@ -121,7 +121,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "13",
     },
     {
       title: "React hooks",
@@ -130,7 +130,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "14",
     },
     {
       title: "React hooks",
@@ -139,7 +139,7 @@ const Video = ({ toggleTheme, theme }) => {
       photo:
         "https://images.pexels.com/photos/2313635/pexels-photo-2313635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       date: "20 Jun 2021",
-      id: "4",
+      id: "15",
     },
   ];
 

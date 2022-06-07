@@ -182,7 +182,7 @@ const Video = ({ toggleTheme, theme }) => {
               color: "white",
               cursor: "pointer",
               marginBottom:"20px",
-              background: "tomato",
+              background: "black",
               borderRadius: "20px",
             }}
           >

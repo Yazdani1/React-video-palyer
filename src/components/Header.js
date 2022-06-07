@@ -3,7 +3,11 @@ import React from "react";
 const Header = () => {
   return (
     <React.Fragment>
-      <h6>Header Section</h6>
+      <div className="container-fluid">
+          <div className="container">
+
+          </div>
+      </div>
     </React.Fragment>
   );
 };

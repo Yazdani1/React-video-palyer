@@ -155,7 +155,7 @@ const Video = ({ toggleTheme, theme }) => {
       <div className="theme-chang " onClick={() => toggleTheme()}>
         {theme === "light" ? (
           <p className="theme-iconss">
-            <BsFillMoonStarsFill size={40} color="black"/>
+            <BsFillMoonStarsFill size={40} color="white"/>
           </p>
         ) : (
           <p className="theme-icon">
